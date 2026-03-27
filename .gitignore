@@ -1,0 +1,29 @@
+# MATLAB
+*.asv
+*.p
+*.mexa64
+*.mexw64
+*.mexglx
+*.mexmaci64
+*.mexmaci
+!*.m
+
+# Logs and results
+logs/
+results/
+*.log
+
+# IDE
+.claude/
+.qoder/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
