@@ -12,9 +12,9 @@
 logs/
 *.log
 
-# Results - ignore .mat files and temp files
+# Results - ignore .mat files, backup folders, and temp files
 results/*.mat
-results/backup/
+results/backup_*/
 results/*~*
 results/~*
 
