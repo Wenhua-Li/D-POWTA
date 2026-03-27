@@ -8,10 +8,15 @@
 *.mexmaci
 !*.m
 
-# Logs and results
+# Logs
 logs/
-results/
 *.log
+
+# Results - ignore .mat files and temp files
+results/*.mat
+results/backup/
+results/*~*
+results/~*
 
 # IDE
 .claude/
